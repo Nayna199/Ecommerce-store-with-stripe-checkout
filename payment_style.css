@@ -1,0 +1,123 @@
+/* payment_style.css */
+
+/* General Styles */
+body {
+    background-image: url('pupu.png'); /* Set the background image */
+    background-size: wrap;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f8f8; /* Optional: Set a light background color for the body */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f8f8; /* Optional: Set a light background color for the body */
+}
+
+header {
+    background-color: transparent; /* Remove background color */
+    color: #333;
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Garamond', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
+
+nav {
+    margin-right: 30px; /* Adjust margin for spacing */
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px; /* Adjust maximum width for the main content */
+    box-sizing: border-box;
+}
+
+
+.payment-form {
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Garamond', serif;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-family: 'Garamond', serif;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="submit"],
+.payment-form textarea,
+.payment-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment-form select {
+    padding: 8px;
+}
+
+.payment-details {
+    display: none;
+}
+
+.payment-form button[type="submit"] {
+    background-color: brown;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form button[type="submit"]:hover {
+    background-color: whitesmoke;
+}
