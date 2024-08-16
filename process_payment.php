@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 
 require_once('stripe-php/init.php');
 
-\Stripe\Stripe::setApiKey('sk_test_51OApbbDAcRPDvKyQvqu2rHWlX3DA3qLfl0cAPL1DG8gcUS1u91cGcWRKetEzvz8HFggWqKmX7qjFYCIZ6DHjXXae008ZjDxOok'); // Replace 'your_secret_key' with your actual secret key
+\Stripe\Stripe::setApiKey('your-key-here'); // Replace 'your_secret_key' with your actual secret key
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fullName = $_POST["full_name"];
